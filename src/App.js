@@ -8,6 +8,7 @@ import {TransactionList} from './components/TransactionList';
 import {GlobalProvider} from './context/State';
 
 import './App.css';
+import AddTransction from './components/AddTransaction';
 
 const  App = () => {
   return (
@@ -18,6 +19,7 @@ const  App = () => {
         <Balance/>
         <IncomeExpence/>
         <TransactionList/>
+        <AddTransction/>
         
       </div>
     </GlobalProvider>
